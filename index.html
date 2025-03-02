@@ -21,6 +21,7 @@
         img {
             width: 100%;
             border-radius: 10px;
+            cursor: pointer;
         }
         button {
             background-color: #ff4500;
@@ -37,35 +38,30 @@
         button:hover {
             background-color: #d63b00;
         }
-        .video-container {
-            display: none;
-            margin-top: 20px;
-        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Exclusive Viral Video Content</h1>
-        <p>Watch premium videos now! Click the button below to access.</p>
-        <img src="https://i.imgur.com/7A2MV7M.jpeg" alt="Exclusive Content">
-        <button onclick="redirect()">Watch Now</button>
-        <button onclick="playVideo()">Play Video</button>
+        <p>Watch premium videos now! Click the banner or button below to access.</p>
         
-        <div class="video-container" id="videoContainer">
-            <video width="100%" controls>
-                <source src="https://videoviral69.github.io/play/?video=kRDQVc4D1" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
+        <!-- Gambar yang bisa diklik untuk redirect ke Adsterra -->
+        <a href="https://listenerhooter.com/snp7a52rq?key=b091580e908c2a8b7fd093f23c470502" target="_blank">
+            <img src="https://i.imgur.com/7A2MV7M.jpeg" alt="Exclusive Content">
+        </a>
+
+        <!-- Tombol redirect -->
+        <button onclick="redirectAdsterra()">Play Video</button>
+        <button onclick="redirectVideo()">Watch Now</button>
     </div>
 
     <script>
-        function redirect() {
-            window.location.href = "https://listenerhooter.com/snp7a52rq?key=b091580e908c2a8b7fd093f23c470502";
+        function redirectAdsterra() {
+            window.location.href = "https://listenerhooter.com/d0qkx7hir?key=ad6f32da73ebeb15aecc988b2408f157";
         }
 
-        function playVideo() {
-            document.getElementById('videoContainer').style.display = 'block';
+        function redirectVideo() {
+            window.location.href = "https://videoviral69.github.io/play/?video=kRDQVc4D1"; // Ganti dengan URL video-mu
         }
     </script>
 
